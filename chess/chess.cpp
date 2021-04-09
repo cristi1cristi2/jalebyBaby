@@ -123,7 +123,7 @@ int main()
 	MYSQL_RES* res;
 	conn = mysql_init(0);
 
-	conn = mysql_real_connect(conn, "sql11.freesqldatabase.com", "sql11403545", "ISkD7nsJW3", "sql11403545", 3306, NULL, 0);
+	conn = mysql_real_connect(conn, "sql11.freesqldatabase.com", "$$$", "you thought", "$$$", 3306, NULL, 0);
 
 	if (conn) {
 		puts("Successful connection to database!");
